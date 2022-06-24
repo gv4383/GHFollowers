@@ -70,20 +70,12 @@
 		B9D64D092862D43E00B21359 /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				B9D64D2528635AAF00B21359 /* Components */,
 				B9D64D322866053800B21359 /* Extensions */,
+				B9D64D352866108400B21359 /* Screens */,
 				B9D64D34286607D400B21359 /* Support */,
-				B9D64D22286353AA00B21359 /* Views */,
 			);
 			path = GHFollowers;
-			sourceTree = "<group>";
-		};
-		B9D64D22286353AA00B21359 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				B9D64D2528635AAF00B21359 /* Components */,
-				B9D64D352866108400B21359 /* Screens */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		B9D64D2528635AAF00B21359 /* Components */ = {
