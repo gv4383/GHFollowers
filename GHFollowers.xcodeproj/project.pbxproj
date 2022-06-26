@@ -22,6 +22,7 @@
 		B9D64D31286603DA00B21359 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D64D30286603DA00B21359 /* UIViewController+Ext.swift */; };
 		B9D64D382866CB1800B21359 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D64D372866CB1800B21359 /* Follower.swift */; };
 		B9D64D3A2866CC0100B21359 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D64D392866CC0100B21359 /* User.swift */; };
+		B9D64D3D2868016A00B21359 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D64D3C2868016A00B21359 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		B9D64D30286603DA00B21359 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 		B9D64D372866CB1800B21359 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		B9D64D392866CC0100B21359 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B9D64D3C2868016A00B21359 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				B9D64D182862D44000B21359 /* Info.plist */,
 				B9D64D2528635AAF00B21359 /* Components */,
 				B9D64D322866053800B21359 /* Extensions */,
+				B9D64D3B2868014700B21359 /* Managers */,
 				B9D64D362866CAF100B21359 /* Models */,
 				B9D64D352866108400B21359 /* Screens */,
 				B9D64D34286607D400B21359 /* Support */,
@@ -132,6 +135,14 @@
 				B9D64D392866CC0100B21359 /* User.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		B9D64D3B2868014700B21359 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B9D64D3C2868016A00B21359 /* NetworkManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +225,7 @@
 				B9D64D2D2865FCBE00B21359 /* GFBodyLabel.swift in Sources */,
 				B9D64D382866CB1800B21359 /* Follower.swift in Sources */,
 				B9D64D2B2865FAD300B21359 /* GFTitleLabel.swift in Sources */,
+				B9D64D3D2868016A00B21359 /* NetworkManager.swift in Sources */,
 				B9D64D0B2862D43E00B21359 /* AppDelegate.swift in Sources */,
 				B9D64D212863539D00B21359 /* FavoritesListViewController.swift in Sources */,
 				B9D64D0D2862D43E00B21359 /* SceneDelegate.swift in Sources */,
