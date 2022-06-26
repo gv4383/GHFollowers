@@ -23,6 +23,7 @@
 		B9D64D382866CB1800B21359 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D64D372866CB1800B21359 /* Follower.swift */; };
 		B9D64D3A2866CC0100B21359 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D64D392866CC0100B21359 /* User.swift */; };
 		B9D64D3D2868016A00B21359 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D64D3C2868016A00B21359 /* NetworkManager.swift */; };
+		B9D64D4028680C4800B21359 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D64D3F28680C4800B21359 /* ErrorMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		B9D64D372866CB1800B21359 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		B9D64D392866CC0100B21359 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B9D64D3C2868016A00B21359 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B9D64D3F28680C4800B21359 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				B9D64D362866CAF100B21359 /* Models */,
 				B9D64D352866108400B21359 /* Screens */,
 				B9D64D34286607D400B21359 /* Support */,
+				B9D64D3E28680C1800B21359 /* Utilities */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
@@ -143,6 +146,14 @@
 				B9D64D3C2868016A00B21359 /* NetworkManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		B9D64D3E28680C1800B21359 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B9D64D3F28680C4800B21359 /* ErrorMessage.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +233,7 @@
 				B9D64D31286603DA00B21359 /* UIViewController+Ext.swift in Sources */,
 				B9D64D2428635AAB00B21359 /* GFButton.swift in Sources */,
 				B9D64D2928656E3000B21359 /* FollowerListViewController.swift in Sources */,
+				B9D64D4028680C4800B21359 /* ErrorMessage.swift in Sources */,
 				B9D64D2D2865FCBE00B21359 /* GFBodyLabel.swift in Sources */,
 				B9D64D382866CB1800B21359 /* Follower.swift in Sources */,
 				B9D64D2B2865FAD300B21359 /* GFTitleLabel.swift in Sources */,
