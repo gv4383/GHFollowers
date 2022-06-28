@@ -29,6 +29,9 @@
 		B9D64D4F2869632300B21359 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D64D4E2869632300B21359 /* GFEmptyStateView.swift */; };
 		B9D64D512869F31B00B21359 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D64D502869F31B00B21359 /* UserInfoViewController.swift */; };
 		B9D64D532869FC4500B21359 /* GFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D64D522869FC4500B21359 /* GFError.swift */; };
+		B9D64D55286A9B4B00B21359 /* GFUserInfoHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D64D54286A9B4B00B21359 /* GFUserInfoHeaderViewController.swift */; };
+		B9D64D57286A9C4000B21359 /* GFSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D64D56286A9C4000B21359 /* GFSecondaryTitleLabel.swift */; };
+		B9D64D59286AAD3200B21359 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D64D58286AAD3200B21359 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +59,9 @@
 		B9D64D4E2869632300B21359 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
 		B9D64D502869F31B00B21359 /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
 		B9D64D522869FC4500B21359 /* GFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFError.swift; sourceTree = "<group>"; };
+		B9D64D54286A9B4B00B21359 /* GFUserInfoHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFUserInfoHeaderViewController.swift; sourceTree = "<group>"; };
+		B9D64D56286A9C4000B21359 /* GFSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryTitleLabel.swift; sourceTree = "<group>"; };
+		B9D64D58286AAD3200B21359 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +170,7 @@
 		B9D64D3E28680C1800B21359 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				B9D64D58286AAD3200B21359 /* Constants.swift */,
 				B9D64D522869FC4500B21359 /* GFError.swift */,
 				B9D64D462869105600B21359 /* UIHelper.swift */,
 			);
@@ -214,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				B9D64D2E2865FD8400B21359 /* GFAlertViewController.swift */,
+				B9D64D54286A9B4B00B21359 /* GFUserInfoHeaderViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -222,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				B9D64D2C2865FCBE00B21359 /* GFBodyLabel.swift */,
+				B9D64D56286A9C4000B21359 /* GFSecondaryTitleLabel.swift */,
 				B9D64D2A2865FAD300B21359 /* GFTitleLabel.swift */,
 			);
 			path = Labels;
@@ -303,14 +312,17 @@
 				B9D64D1F2863535900B21359 /* SearchViewController.swift in Sources */,
 				B9D64D31286603DA00B21359 /* UIViewController+Ext.swift in Sources */,
 				B9D64D472869105600B21359 /* UIHelper.swift in Sources */,
+				B9D64D59286AAD3200B21359 /* Constants.swift in Sources */,
 				B9D64D452868199200B21359 /* GFAvatarImageView.swift in Sources */,
 				B9D64D2428635AAB00B21359 /* GFButton.swift in Sources */,
+				B9D64D55286A9B4B00B21359 /* GFUserInfoHeaderViewController.swift in Sources */,
 				B9D64D532869FC4500B21359 /* GFError.swift in Sources */,
 				B9D64D2928656E3000B21359 /* FollowerListViewController.swift in Sources */,
 				B9D64D43286818B600B21359 /* FollowerCell.swift in Sources */,
 				B9D64D2D2865FCBE00B21359 /* GFBodyLabel.swift in Sources */,
 				B9D64D382866CB1800B21359 /* Follower.swift in Sources */,
 				B9D64D2B2865FAD300B21359 /* GFTitleLabel.swift in Sources */,
+				B9D64D57286A9C4000B21359 /* GFSecondaryTitleLabel.swift in Sources */,
 				B9D64D4F2869632300B21359 /* GFEmptyStateView.swift in Sources */,
 				B9D64D3D2868016A00B21359 /* NetworkManager.swift in Sources */,
 				B9D64D0B2862D43E00B21359 /* AppDelegate.swift in Sources */,
