@@ -20,9 +20,16 @@ class GFButton: UIButton {
     init(backgroundColor: UIColor, title: String) {
         // setting frame to 0 since we can change frame with auto layout
         super.init(frame: .zero)
+        
         self.backgroundColor = backgroundColor
         self.setTitle(title, for: .normal)
+        
         configure()
+    }
+    
+    func set(backgroundColor: UIColor, title: String) {
+        self.backgroundColor = backgroundColor
+        setTitle(title, for: .normal)
     }
     
     private func configure() {
