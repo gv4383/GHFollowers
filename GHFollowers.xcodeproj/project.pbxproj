@@ -32,6 +32,7 @@
 		B9D64D55286A9B4B00B21359 /* GFUserInfoHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D64D54286A9B4B00B21359 /* GFUserInfoHeaderViewController.swift */; };
 		B9D64D57286A9C4000B21359 /* GFSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D64D56286A9C4000B21359 /* GFSecondaryTitleLabel.swift */; };
 		B9D64D59286AAD3200B21359 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D64D58286AAD3200B21359 /* Constants.swift */; };
+		B9D64D5B286BA1ED00B21359 /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D64D5A286BA1ED00B21359 /* GFItemInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		B9D64D54286A9B4B00B21359 /* GFUserInfoHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFUserInfoHeaderViewController.swift; sourceTree = "<group>"; };
 		B9D64D56286A9C4000B21359 /* GFSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryTitleLabel.swift; sourceTree = "<group>"; };
 		B9D64D58286AAD3200B21359 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B9D64D5A286BA1ED00B21359 /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				B9D64D4E2869632300B21359 /* GFEmptyStateView.swift */,
+				B9D64D5A286BA1ED00B21359 /* GFItemInfoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				B9D64D452868199200B21359 /* GFAvatarImageView.swift in Sources */,
 				B9D64D2428635AAB00B21359 /* GFButton.swift in Sources */,
 				B9D64D55286A9B4B00B21359 /* GFUserInfoHeaderViewController.swift in Sources */,
+				B9D64D5B286BA1ED00B21359 /* GFItemInfoView.swift in Sources */,
 				B9D64D532869FC4500B21359 /* GFError.swift in Sources */,
 				B9D64D2928656E3000B21359 /* FollowerListViewController.swift in Sources */,
 				B9D64D43286818B600B21359 /* FollowerCell.swift in Sources */,
