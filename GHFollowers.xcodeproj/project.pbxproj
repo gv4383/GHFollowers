@@ -38,6 +38,7 @@
 		B9D64D61286BAD9B00B21359 /* GFFollowerItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D64D60286BAD9B00B21359 /* GFFollowerItemViewController.swift */; };
 		B9D64D64286BB4B300B21359 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D64D63286BB4B300B21359 /* Date+Ext.swift */; };
 		B9D64D66286BB4D300B21359 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D64D65286BB4D300B21359 /* String+Ext.swift */; };
+		B9D64D682874899000B21359 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D64D672874899000B21359 /* PersistenceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		B9D64D60286BAD9B00B21359 /* GFFollowerItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFFollowerItemViewController.swift; sourceTree = "<group>"; };
 		B9D64D63286BB4B300B21359 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		B9D64D65286BB4D300B21359 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		B9D64D672874899000B21359 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				B9D64D3C2868016A00B21359 /* NetworkManager.swift */,
+				B9D64D672874899000B21359 /* PersistenceManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 				B9D64D382866CB1800B21359 /* Follower.swift in Sources */,
 				B9D64D2B2865FAD300B21359 /* GFTitleLabel.swift in Sources */,
 				B9D64D64286BB4B300B21359 /* Date+Ext.swift in Sources */,
+				B9D64D682874899000B21359 /* PersistenceManager.swift in Sources */,
 				B9D64D57286A9C4000B21359 /* GFSecondaryTitleLabel.swift in Sources */,
 				B9D64D4F2869632300B21359 /* GFEmptyStateView.swift in Sources */,
 				B9D64D3D2868016A00B21359 /* NetworkManager.swift in Sources */,
