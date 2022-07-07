@@ -39,6 +39,7 @@
 		B9D64D64286BB4B300B21359 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D64D63286BB4B300B21359 /* Date+Ext.swift */; };
 		B9D64D66286BB4D300B21359 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D64D65286BB4D300B21359 /* String+Ext.swift */; };
 		B9D64D682874899000B21359 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D64D672874899000B21359 /* PersistenceManager.swift */; };
+		B9D64D6A2877830E00B21359 /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D64D692877830E00B21359 /* FavoriteCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		B9D64D63286BB4B300B21359 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		B9D64D65286BB4D300B21359 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		B9D64D672874899000B21359 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		B9D64D692877830E00B21359 /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				B9D64D42286818B600B21359 /* FollowerCell.swift */,
+				B9D64D692877830E00B21359 /* FavoriteCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				B9D64D2428635AAB00B21359 /* GFButton.swift in Sources */,
 				B9D64D55286A9B4B00B21359 /* GFUserInfoHeaderViewController.swift in Sources */,
 				B9D64D5B286BA1ED00B21359 /* GFItemInfoView.swift in Sources */,
+				B9D64D6A2877830E00B21359 /* FavoriteCell.swift in Sources */,
 				B9D64D532869FC4500B21359 /* GFError.swift in Sources */,
 				B9D64D2928656E3000B21359 /* FollowerListViewController.swift in Sources */,
 				B9D64D43286818B600B21359 /* FollowerCell.swift in Sources */,
