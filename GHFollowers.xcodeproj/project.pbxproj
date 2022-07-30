@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B95FFCBD28948E5400368354 /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95FFCBC28948E5400368354 /* GFAlertContainerView.swift */; };
 		B9D64D0B2862D43E00B21359 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D64D0A2862D43E00B21359 /* AppDelegate.swift */; };
 		B9D64D0D2862D43E00B21359 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D64D0C2862D43E00B21359 /* SceneDelegate.swift */; };
 		B9D64D142862D44000B21359 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9D64D132862D44000B21359 /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B95FFCBC28948E5400368354 /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
 		B9D64D072862D43E00B21359 /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9D64D0A2862D43E00B21359 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9D64D0C2862D43E00B21359 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -213,6 +215,7 @@
 			children = (
 				B9D64D4E2869632300B21359 /* GFEmptyStateView.swift */,
 				B9D64D5A286BA1ED00B21359 /* GFItemInfoView.swift */,
+				B95FFCBC28948E5400368354 /* GFAlertContainerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -370,6 +373,7 @@
 				B9D64D43286818B600B21359 /* FollowerCell.swift in Sources */,
 				B9D64D2D2865FCBE00B21359 /* GFBodyLabel.swift in Sources */,
 				B9D64D382866CB1800B21359 /* Follower.swift in Sources */,
+				B95FFCBD28948E5400368354 /* GFAlertContainerView.swift in Sources */,
 				B9D64D2B2865FAD300B21359 /* GFTitleLabel.swift in Sources */,
 				B9D64D64286BB4B300B21359 /* Date+Ext.swift in Sources */,
 				B9D64D682874899000B21359 /* PersistenceManager.swift in Sources */,
