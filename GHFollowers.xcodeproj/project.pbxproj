@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B90533892895EE6E00B815E7 /* GFDataLoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90533882895EE6E00B815E7 /* GFDataLoadingViewController.swift */; };
 		B95FFCBD28948E5400368354 /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95FFCBC28948E5400368354 /* GFAlertContainerView.swift */; };
 		B9D64D0B2862D43E00B21359 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D64D0A2862D43E00B21359 /* AppDelegate.swift */; };
 		B9D64D0D2862D43E00B21359 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D64D0C2862D43E00B21359 /* SceneDelegate.swift */; };
@@ -44,6 +45,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B90533882895EE6E00B815E7 /* GFDataLoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFDataLoadingViewController.swift; sourceTree = "<group>"; };
 		B95FFCBC28948E5400368354 /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
 		B9D64D072862D43E00B21359 /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9D64D0A2862D43E00B21359 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -245,6 +247,7 @@
 			isa = PBXGroup;
 			children = (
 				B9D64D2E2865FD8400B21359 /* GFAlertViewController.swift */,
+				B90533882895EE6E00B815E7 /* GFDataLoadingViewController.swift */,
 				B9D64D54286A9B4B00B21359 /* GFUserInfoHeaderViewController.swift */,
 				B9D64D62286BAE1D00B21359 /* ItemInfoViewControllers */,
 			);
@@ -372,6 +375,7 @@
 				B95FFCBD28948E5400368354 /* GFAlertContainerView.swift in Sources */,
 				B9D64D2B2865FAD300B21359 /* GFTitleLabel.swift in Sources */,
 				B9D64D64286BB4B300B21359 /* Date+Ext.swift in Sources */,
+				B90533892895EE6E00B815E7 /* GFDataLoadingViewController.swift in Sources */,
 				B9D64D682874899000B21359 /* PersistenceManager.swift in Sources */,
 				B9D64D57286A9C4000B21359 /* GFSecondaryTitleLabel.swift in Sources */,
 				B9D64D4F2869632300B21359 /* GFEmptyStateView.swift in Sources */,
