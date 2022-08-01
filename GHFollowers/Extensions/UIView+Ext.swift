@@ -1,5 +1,5 @@
 //
-//  UIView_Ext.swift
+//  UIView+Ext.swift
 //  GHFollowers
 //
 //  Created by Goyo Vargas on 8/1/22.
