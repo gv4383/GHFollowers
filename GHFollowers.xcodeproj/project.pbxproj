@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B90533892895EE6E00B815E7 /* GFDataLoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90533882895EE6E00B815E7 /* GFDataLoadingViewController.swift */; };
+		B905338B28986F6500B815E7 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B905338A28986F6500B815E7 /* UIView+Ext.swift */; };
 		B95FFCBD28948E5400368354 /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95FFCBC28948E5400368354 /* GFAlertContainerView.swift */; };
 		B9D64D0B2862D43E00B21359 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D64D0A2862D43E00B21359 /* AppDelegate.swift */; };
 		B9D64D0D2862D43E00B21359 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D64D0C2862D43E00B21359 /* SceneDelegate.swift */; };
@@ -46,6 +47,7 @@
 
 /* Begin PBXFileReference section */
 		B90533882895EE6E00B815E7 /* GFDataLoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFDataLoadingViewController.swift; sourceTree = "<group>"; };
+		B905338A28986F6500B815E7 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		B95FFCBC28948E5400368354 /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
 		B9D64D072862D43E00B21359 /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9D64D0A2862D43E00B21359 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				B9D64D63286BB4B300B21359 /* Date+Ext.swift */,
+				B905338A28986F6500B815E7 /* UIView+Ext.swift */,
 				B9D64D30286603DA00B21359 /* UIViewController+Ext.swift */,
 			);
 			path = Extensions;
@@ -380,6 +383,7 @@
 				B9D64D57286A9C4000B21359 /* GFSecondaryTitleLabel.swift in Sources */,
 				B9D64D4F2869632300B21359 /* GFEmptyStateView.swift in Sources */,
 				B9D64D3D2868016A00B21359 /* NetworkManager.swift in Sources */,
+				B905338B28986F6500B815E7 /* UIView+Ext.swift in Sources */,
 				B9D64D0B2862D43E00B21359 /* AppDelegate.swift in Sources */,
 				B9D64D5D286BA6C100B21359 /* GFItemInfoViewController.swift in Sources */,
 				B9D64D512869F31B00B21359 /* UserInfoViewController.swift in Sources */,
