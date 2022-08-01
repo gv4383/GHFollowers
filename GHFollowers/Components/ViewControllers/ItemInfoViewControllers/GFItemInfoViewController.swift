@@ -7,11 +7,6 @@
 
 import UIKit
 
-protocol ItemInfoViewControllerDelegate: AnyObject {
-    func didTapGitHubProfile(for user: User)
-    func didTapGitHubFollowers(for user: User)
-}
-
 class GFItemInfoViewController: UIViewController {
     let stackView = UIStackView()
     let itemInfoViewOne = GFItemInfoView()
@@ -19,7 +14,6 @@ class GFItemInfoViewController: UIViewController {
     let actionButton = GFButton()
     
     var user: User!
-    weak var delegate: ItemInfoViewControllerDelegate!
     
     init(user: User) {
         super.init(nibName: nil, bundle: nil)
